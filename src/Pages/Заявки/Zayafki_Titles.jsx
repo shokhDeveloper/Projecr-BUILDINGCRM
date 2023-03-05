@@ -4,7 +4,6 @@ export const Zayafki_Titles = () => {
             <h2>Заявки</h2>
             <div className="zayafki_btns">
                 <button>Фильтр</button>
-                <button>Создать заявку +</button>
             </div>
         </div>
     )

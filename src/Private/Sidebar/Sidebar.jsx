@@ -9,13 +9,14 @@ export const Sidebar = () => {
       </div>
         <div className="sidebar_links">
             <NavLink to={"/главная"} className={(params) => params.isActive? "active": false}>Главная</NavLink>
+            <NavLink to={"/здания"}>Здания</NavLink>
             <NavLink to={"/сотрудники"}>Сотрудники</NavLink>
             <NavLink to={"/заявки"}> Заявки</NavLink>
             <NavLink to={"/клиенты"}> Клиенты</NavLink>
             <NavLink to={"/склад"}> Склад</NavLink>
             <NavLink to={"/статистика"}> Статистика</NavLink>
             <NavLink to={"/расходы"}> Расходы</NavLink>
-            <NavLink to={"/настройки"}> Настройки</NavLink>
+            <NavLink to={"/настройки"}>Настройки</NavLink>
         </div>
     </div>
   );

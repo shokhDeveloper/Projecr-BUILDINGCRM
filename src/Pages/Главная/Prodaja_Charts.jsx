@@ -139,7 +139,7 @@ export const Prodata_Charts = () => {
           }
     )
     return(
-        <div id="chart">
+        <div id="chart" style={{width: "99%"}}>
         <ReactApexChart options={state.options} series={state.series} type="bar" height={350} />
       </div>   
     )

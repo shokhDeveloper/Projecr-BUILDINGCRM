@@ -17,8 +17,9 @@ export const ContextProvider = ({children}) => {
             window.localStorage.setItem("project_user", JSON.stringify(user))
         }
     },[user])
+    const [modal, setModal] = useState(!true)
     return(
-        <Context.Provider value={{token, setToken, user, setUser}}>
+        <Context.Provider value={{ modal, setModal,token, setToken, user, setUser}}>
             {children}
         </Context.Provider>
     )

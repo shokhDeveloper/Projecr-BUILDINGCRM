@@ -31,24 +31,27 @@
     background-image: url("../../assets/images/Vector_svg.svg");
 }
 .sidebar_links a:nth-child(2){
-    background-image: url("../../assets/images/user_svg.svg");
+    background-image: url("../../assets/images/Zdaniya.svg");
 }
 .sidebar_links a:nth-child(3){
-    background-image: url("../../assets/images/Z.svg");
+    background-image: url("../../assets/images/user_svg.svg");
 }
 .sidebar_links a:nth-child(4){
-    background-image: url("../../assets/images/Users.svg");
+    background-image: url("../../assets/images/Z.svg");
 }
 .sidebar_links a:nth-child(5){
-    background-image: url("../../assets/images/Sklad.svg");
+    background-image: url("../../assets/images/Users.svg");
 }
 .sidebar_links a:nth-child(6){
-    background-image: url("../../assets/images/Statistika.svg");
+    background-image: url("../../assets/images/Sklad.svg");
 }
 .sidebar_links a:nth-child(7){
-    background-image: url("../../assets/images/Arrow\ 2.svg");
+    background-image: url("../../assets/images/Statistika.svg");
 }
 .sidebar_links a:nth-child(8){
+    background-image: url("../../assets/images/Arrow\ 2.svg");
+}
+.sidebar_links a:nth-child(9){
     background-image: url("../../assets/images/Nastroyka.svg");
 }
 .active{
